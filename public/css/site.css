@@ -1,0 +1,13 @@
+.avatar {
+    width: 40%;
+}
+
+.techstack-img {
+    margin-right: 8px;
+    height: 60px;
+}
+
+.techstack-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

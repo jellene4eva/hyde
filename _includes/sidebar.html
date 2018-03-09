@@ -2,6 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
+        <img class="avatar" src="https://pbs.twimg.com/profile_images/479537442144272386/76ZORO8h_400x400.png"/>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
@@ -26,9 +27,8 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a href="{{ site.linkedin }}"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="{{ site.github }}"><i class="fab fa-github fa-lg"></i></a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

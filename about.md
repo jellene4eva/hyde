@@ -4,27 +4,21 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Nosy lil' fella aren't ya?
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+This is my github page. Theme credit goes to [@mdo](http://hyde.getpoole.com).
 
-There are currently two themes built on Poole:
+I'm a programmer, musician, illustrator, unicorn, yidi yada...
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Currently working with [Goodhum](https://goodhum.com/). We're pretty cool, we do cool stuff, check us out.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Tech stack
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<div class="techstack-wrapper">
+  {% for image in site.data.techstack %}
+    <a href="{{ image.link }}">
+      <img class="techstack-img" src="/public/images/{{ image.src }}" alt="image" />
+    </a>
+  {% endfor %}
+</div>
