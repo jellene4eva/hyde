@@ -38,15 +38,15 @@ Art Director of Github.
 Fork the theme and rename it to your *username*.github.io, then modify it as much as you like.
 
 ### Setting up _config.yml
-Some dependencies have been deprecated in Jekyll 3.0, so you'll have to make sure the `_config.yml`
-is working as it should. A good template/theme will allow you to change variables
-easily in 1 config file.
+Some dependencies have been [deprecated in Jekyll 3.0](https://help.github.com/articles/updating-your-markdown-processor-to-kramdown/),
+so you'll have to make sure the `_config.yml` is working as it should.
+A good template/theme will allow you to change variables easily in 1 config file.
 
 it should look something like this:
 
 {% highlight yaml %}
     # Dependencies
-    markdown:         redcarpet
+    markdown:         kramdown
     highlighter:      rouge
 
     # Permalinks
